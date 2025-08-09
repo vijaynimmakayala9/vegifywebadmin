@@ -48,9 +48,10 @@ function Login() {
                             <Card.Body className="p-4">
                                 <div className="text-center mb-4">
                                     <img
-                                        src="https://cdn-icons-png.flaticon.com/512/857/857718.png"
+                                        src="/logo.jpg"
                                         alt="Logo"
                                         style={{ width: '80px', height: '80px' }}
+                                        className='img-fluid rounded'
                                     />
                                     <h2 className="mt-3" style={{ color: '#ff6b6b' }}>Foodie Delights</h2>
                                 </div>
