@@ -92,10 +92,10 @@ function Login() {
                                     </div>
                                 </Form>
 
-                                <div className="text-center mt-3">
+                                {/* <div className="text-center mt-3">
                                     <p className="mb-0">Don't have an account? <a href="#register">Sign up</a></p>
                                     <p><a href="#forgot-password">Forgot password?</a></p>
-                                </div>
+                                </div> */}
                             </Card.Body>
                         </Card>
                     </Col>

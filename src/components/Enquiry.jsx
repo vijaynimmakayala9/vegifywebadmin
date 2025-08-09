@@ -116,7 +116,7 @@ const Enquiry = () => {
   const handleLogout = () => {
     // Add your logout logic here
     localStorage.removeItem('token');
-    navigate('/login');
+    navigate('/');
   };
 
   const exportToExcel = () => {
@@ -148,7 +148,7 @@ const Enquiry = () => {
                 Total: {enquiries.length}
               </Badge>
               <Button 
-                variant="outline-light" 
+                variant="danger" 
                 onClick={handleLogout}
                 size="sm"
               >
